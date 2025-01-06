@@ -89,14 +89,11 @@ body{
 .layout {
   width: 100%;
   display: grid;
-  margin-right: auto;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 0px;
-  background-color: #5A8D9180;
+  background-color: #5A8D91;
   overflow: hidden;
   border: 3px solid #00202F;
-  border-radius: 25px;
-  margin-top: auto;
-  margin-bottom: auto;
+  border-radius: 25px
 }
