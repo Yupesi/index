@@ -84,11 +84,6 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-.gallery{
-  padding-left: 0%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
 .layout {
   width: 100%;
   display: grid;
@@ -100,4 +95,16 @@ body{
   border: 3px solid #00202F;
   border-radius: 25px;
   fill-opacity: 66%;
+}
+p{
+  padding: 10px;
+  border-width:3px;
+  border-radius: 25px;
+  border-style:solid;
+  border-color:#C2BB8E;
+  color:#FDDD8A;
+  background-color: #5A8D91;
+}
+.video-panel{
+  padding: 75px;
 }
