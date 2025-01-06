@@ -45,6 +45,7 @@ body{
     border: 3px solid #5A8D91;
     vertical-align: middle;
     
+    
 }
 
 .box a{
@@ -55,6 +56,7 @@ body{
     font-size: 17px;
     display:inline-block;
     vertical-align: middle;
+    
 }
 .box img{
     vertical-align: middle;
@@ -62,6 +64,7 @@ body{
     margin-right:5px;
     
 }
+
 .SoundBored{
   background-image:url();
 }
@@ -92,8 +95,9 @@ body{
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 0px;
-  background-color: #5A8D91;
+  background-color: #005A8D91;
   overflow: hidden;
   border: 3px solid #00202F;
-  border-radius: 25px
+  border-radius: 25px;
+  fill-opacity: 66%;
 }
