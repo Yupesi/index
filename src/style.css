@@ -1,8 +1,11 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #00202F;
+  padding-top: 10px;
   overflow: hidden;
   font-family:quicksand;
+  text-align: center;
+  margin-left: auto;
+  
 }
 
 /* Style the links inside the navigation bar */
@@ -10,9 +13,10 @@
   float: left;
   color:#FDDD8A;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 0px;
   text-decoration: none;
   font-size: 17px;
+  width: 100%;
 }
 
 /* Change the color of links on hover */
@@ -28,8 +32,13 @@
 }
 body{
     background-image: url(./BGs/BG.png);
-    background-size: cover;
-    object-fit: fill;
+    object-fit: contain;
+}
+body.img {
+  width: 200px;
+  height: 300px;
+  object-fit: fill;
+  margin: auto;
 }
 
 .box{
@@ -40,12 +49,9 @@ body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     font-family:quicksand;
-    border: 3px solid #5A8D91;
     vertical-align: middle;
-    
-    
+    width: 50%;
 }
 
 .box a{
@@ -90,12 +96,7 @@ body{
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 0px;
-  background-color: #005A8D91;
   overflow: hidden;
-  border: 3px solid #00202F;
-  border-radius: 25px;
-  fill-opacity: 66%;
-  
 }
 p{
   padding: 10px;
@@ -109,4 +110,7 @@ p{
 }
 .video-panel{
   padding: 75px;
+}
+h1{
+  text-align: center;
 }
