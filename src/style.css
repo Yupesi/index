@@ -32,17 +32,17 @@
 }
 body{
     background-image: url(./BGs/BG.png);
-    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #5a8d91;
 }
 body.img {
-  width: 200px;
-  height: 300px;
-  object-fit: fill;
+  object-fit: contain;
+
   margin: auto;
 }
 
 .box{
-    background-color: #00202F;
     overflow: hidden;
     color:#FDDD8A;
     border-radius: 15px;
@@ -57,7 +57,7 @@ body.img {
 .box a{
     color:#FDDD8A;
     text-align: center;
-    padding: 14px 16px;
+    padding: 7px 8px;
     text-decoration: none;
     font-size: 17px;
     display:inline-block;
@@ -84,8 +84,6 @@ body.img {
   margin-top: auto;
   width: 350px;
   font-family:quicksand;
-  margin-left: auto;
-  margin-right: auto;
   vertical-align: 25%;
   margin-left: auto;
   margin-right: auto;
@@ -106,7 +104,6 @@ p{
   border-color:#C2BB8E;
   color:#FDDD8A;
   background-color: #5A8D91;
-  text-align: center;
 }
 .video-panel{
   padding: 75px;
